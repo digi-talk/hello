@@ -1,0 +1,60 @@
+#ltMainContainer {
+  float: left;
+  position: relative;
+  width: 60vw;
+  height: 65vh;
+  margin-left: 3%;
+  margin-right: 3%;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: black;
+}
+
+canvas {
+  pointer-events: none;
+}
+
+#createOptions {
+  float: left;
+  position: relative;
+  width: 30vw;
+  height: 65vh;
+  margin-left: 3%;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#createOptionsList {
+  padding: 3%;
+  margin: 0;
+  text-align: center;
+}
+
+#createOptionsList li {
+  list-style-type: none
+}
+
+#createOptionsList md-input {
+  width: 90%;
+}
+
+li > button {
+  width: 90%;
+  max-width: 350px;
+}
+
+#recognizedGesture, #gestureOptions {
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+#gestureOptions {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.head-center {
+  text-align: center;
+}
